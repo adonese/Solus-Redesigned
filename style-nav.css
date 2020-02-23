@@ -1,0 +1,58 @@
+html, body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Lato, Roboto, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+.nav_container {
+    background-color: #EF3C5A;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav_logo {
+    height: 70px;
+    width: 45px;
+    border-radius: 12px;
+    border: 1px #EF3C5A;
+    background-color: #CF1433;
+    margin-left: 25px;
+    -webkit-box-shadow: 3px 4px 25px -1px rgba(0, 0, 0, 0.438);
+    -moz-box-shadow: 3px 4px 25px -1px rgba(0, 0, 0, 0.479);
+    box-shadow: 3px 4px 25px -1px rgba(0, 0, 0, 0.493);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    font-size: 50px;
+    color: #ffffff;
+}
+.nav_icon > ::first-letter  {
+    transform: translate(10px, 20px);
+    font-size: 50px;
+}
+.nav_olus {
+    transform: translate(18px,13px);
+    font-size: 45px;
+}
+.nav_items {
+    display: flex;
+    flex-direction: row;
+    transition-property: all;
+}
+.nav_item {
+    margin: 50px;
+    font-size: 25px;
+    color: #ffffff;
+}
+.nav_item:link,
+.nav_item:visited {
+    text-decoration: none;
+}
+
+.nav_item::hover {
+    transform: scale(3px, 2px);
+}
